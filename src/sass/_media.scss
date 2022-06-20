@@ -1,0 +1,158 @@
+@media (max-width: 991px) {
+  .promo {
+    padding: 21px 10px 93px 10px;
+
+    &__header {
+      font-size: 25px;
+    }
+
+    &__subheader {
+      font-size: 20px;
+    }
+
+    &__wrapper {
+      align-items: center;
+    }
+  }
+  .advantage {
+    padding: 67px 71px 82px 105px;
+      &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
+  .consultation {
+    padding: 98px 25px 90px 25px;
+  }
+  
+  .title {
+    &_left {
+      font-size: 30px;
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  .advantage {
+
+    &__wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__descr {
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (max-width: 615px) {
+  .header {
+    &__official {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 447px) {
+
+  .header {
+    &__logo {
+      img {
+        width: 189px;
+      }
+    }
+
+    &__phone {
+      font-size: 16px;
+    }
+
+    .button {
+      width: 120px;
+      height: 24px;
+      font-size: 11px;
+    }
+  }
+
+  .promo__subheader {
+    font-size: 16px;
+  }
+
+  .promo__icons {
+    width: 350px;
+  }
+
+  .button_main {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .advantage {
+    &__header {
+      font-size: 24px;
+    }
+
+    &__descr {
+      width: 197px;
+    }
+  }
+}
+
+@media (max-width: 357px) {
+  .header {
+    &__logo {
+      img {
+        width: 163px;
+      }
+    }
+
+    &__phone {
+      display: none;
+    }
+  }
+
+  .promo {
+    min-height: 580px;
+
+    &__header {
+      font-size: 19px;
+    }
+
+    &__subheader {
+      display: none;
+    }
+
+    &__icons {
+      width: 290px;
+      margin-top: 40px;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  }
+
+  .button_main {
+    width: 215px;
+    height: 37px;
+    font-size: 13px;
+  }
+
+  .advantage {
+    padding: 67px 42px 82px 42px;
+
+    &__header {
+      font-size: 20px;
+    }
+
+    &__descr {
+      width: 155px;
+    }
+  }
+}

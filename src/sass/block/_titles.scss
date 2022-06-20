@@ -1,0 +1,22 @@
+.title {
+  font-size: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+  &_left {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  &_catalog {
+    font-size: 30px;
+    color: #0d0d0d;
+    text-align: center;
+    font-weight: 600;
+  }
+  &_feedback {
+    font-size: 30px;
+    color: #0d0d0d;
+    text-align: center;
+    font-weight: 600;
+  }
+}
